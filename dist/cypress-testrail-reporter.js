@@ -131,7 +131,7 @@ var CypressTestRailReporter = /** @class */ (function (_super) {
                     runCounter++;
                 }
                 else {
-                    _this.testRailApi.closeRun();
+                    //_this.testRailApi.closeRun();
                     /**
                      * Remove testrail-cache.txt file at the end of execution
                      */
